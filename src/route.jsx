@@ -6,7 +6,7 @@ const SignInPage = lazy(() => import( './pages/SignInPage.jsx'))
 const ProfilePage = lazy(() => import( './pages/ProfilePage.jsx'))
 const MyArticlePage = lazy(() => import( './pages/MyArticlePage.jsx'))
 const PrivatePages = lazy(() => import( './middlewares/PrivatePages.jsx'))
-const SignUpPage = lazy(() => import( './pages/SignupPage.jsx'))
+const SignUpPage = lazy(() => import( './pages/SignUpPage.jsx'))
 
 const routes = createBrowserRouter(
     createRoutesFromElements(
