@@ -3,9 +3,9 @@ import App from './App'
 import SignUpPage from './pages/SignupPage.jsx';
 import HomePage from './pages/HomePage.jsx';
 import SignInPage from './pages/SignInPage.jsx';
-import PrivatePages from './middlewares/PrivatePagesjsx';
 import ProfilePage from './pages/ProfilePage.jsx';
-import MyArticlePage from './pages/MyArticlePage,jsx';
+import MyArticlePage from './pages/MyArticlePage.jsx';
+import PrivatePages from './middlewares/PrivatePages.jsx';
 
 const routes = createBrowserRouter(
     createRoutesFromElements(
