@@ -1,5 +1,6 @@
 import {createBrowserRouter, createRoutesFromElements, Route} from 'react-router-dom'
 import App from './App'
+import { lazy } from 'react'
 const SignUpPage = lazy(() => import( './pages/SignupPage.jsx'))
 const HomePage = lazy(() => import( './pages/HomePage.jsx'))
 const SignInPage = lazy(() => import( './pages/SignInPage.jsx'))
