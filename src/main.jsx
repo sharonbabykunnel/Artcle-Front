@@ -1,4 +1,4 @@
-import { StrictMode } from 'react'
+import { StrictMode, Suspense } from 'react'
 import { createRoot } from 'react-dom/client'
 import routes from './route'
 import './index.css'
@@ -8,6 +8,8 @@ import appStore from './redux/appStore'
 
 createRoot(document.getElementById('root')).render(
   <Provider store={appStore}>
+    <Suspense fallback={<div>Loading...</div>}>
     <RouterProvider router={routes} />
+    </Suspense>
   </Provider>
 )
